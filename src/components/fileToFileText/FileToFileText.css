@@ -1,0 +1,23 @@
+.file-to-file-text-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.file-upload-area {
+  margin-bottom: 20px;
+}
+
+.output-area {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+textarea#output-text {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  white-space: pre-wrap; /* Preserve whitespace formatting */
+}
